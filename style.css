@@ -8,7 +8,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-size: 80%;
+    background-color: black;  
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,25 +22,131 @@ body{
 }
 header{
     font-weight: normal;
-    font-size: 50px;
-    margin: -310px 0 40px;
-
+    font-size: 40px;
+    margin: 0;
 }
 .licznik {
     display: flex;
-    transform: scale(2);
+    height: 100vh;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.czasow {
+   display: flex;
 }
 .czas {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 400px 15px 10px 15px;
-    
+    margin: 0px 20px 10px 20px;
 }
-.time, h2 {
+.czas h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 1;
     margin: 0 0 5px;
+}
+
+@media(max-width:400px){
+    h1 {
+    font-size: 45px;
+   }
+   .czas {
+    margin: 5px;
+   }
+   .czas h2{
+    font-size: 18px;
+   }
+   .czas small {
+    font-size: 16px;
+   }
+   .czasow{
+    padding-bottom: 50px;
+   }
+   header {
+    margin-top: 10vh;
+   }
+}
+@media(min-width:401px){
+    h1 {
+    font-size: 45px;
+   }
+   .czas {
+    margin: 5px;
+   }
+   .czas h2{
+    font-size: 16px;
+   }
+   .czas small {
+    font-size: 14px;
+   }
+   .czasow{
+    padding: 60px;
+    margin-bottom: 50px;
+   }
+   header {
+    margin-top: 10vh;
+   }
+}
+@media(min-width:726px)  {
+   h1{
+    font-size: 60px;
+   }
+   .czas {
+    margin: 5px;
+   }
+   .czas h2{
+    font-size: 22px;
+   }
+   .czas small {
+    font-size: 20px;
+   }
+   .czasow{
+    padding: 5vh;
+   }
+   header {
+    margin-top: 5vh;
+   }
+}
+@media(min-width:1024px)  {
+    h1{
+        font-size: 60px;
+       }
+       .czas {
+        margin: 5px;
+       }
+       .czas h2{
+        font-size: 24px;
+       }
+       .czas small {
+        font-size: 22px;
+       }
+       .czasow{
+        padding: 3vh;
+       }
+       header {
+        margin-top: 2vh;
+       }
+}
+@media(min-width:1920px)  {
+    h1{
+        font-size: 65px;
+       }
+       .czas {
+        margin: 5px;
+       }
+       .czas h2{
+        font-size: 24px;
+       }
+       .czas small {
+        font-size: 22px;
+       }
+       .czasow{
+        padding: 3vh;
+       }
+       header {
+        margin-top: 1vh;
+       }
 }
