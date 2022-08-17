@@ -4,7 +4,7 @@ const hours= document.getElementById('hours')
 const minutes = document.getElementById('minutes')
 const seconds = document.getElementById('seconds')
 const currentYear = new Date().getFullYear();
-const newYearTime = new Date('november 2 2022 19:00:00');
+const newYearTime = new Date('november 3 2022 19:00:00');
 
 function updateCountdown() {
   const currentTime = new Date();
