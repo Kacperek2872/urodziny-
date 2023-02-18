@@ -16,7 +16,7 @@ body{
     justify-content: center; */
     text-align: center;
     margin: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     color: white;
     width: 100%;
     background-image: url("birthday.jpg"); 
@@ -172,3 +172,4 @@ header{
         margin-top: 1vh;
        }
 }
+
